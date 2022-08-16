@@ -1,0 +1,184 @@
+body {
+  background-color: #C5D8A4;
+  font-family:sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  margin-right: 600px;
+  border-radius: 50px;
+}
+.about,.work, .notes {
+  margin-right: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.page1 {
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.first-container {
+  text-align: center;
+  position: relative;
+  width: 800px;
+  margin: 20px auto;
+
+}
+
+.cloud1 {
+  position: absolute;
+  width: 100px;
+  right: 0;
+  top: -80px;
+}
+h1 {
+  color: #52734D;
+  font-size: 80px;
+  margin: 50px auto;
+  font-family: cursive;
+}
+
+.subtitle {
+  color: #52734D;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 80px;
+  left: 0;
+  bottom: -80px;
+}
+
+.mountain {
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.land {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px auto;
+}
+.land-picture {
+  width: 800px;
+}
+
+.page2 {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+}
+
+.boy {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+/*
+hr {
+border-style: dotted;
+border-color: white;
+padding: 10px 20px;*/
+hr {
+  border:none;
+  border-top: 6px dotted white;
+  width:20%;
+}
+
+
+.sub1 {
+  color: #52734D;
+  font-size: 32px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  /*margin: 10px auto;*/
+}
+
+.bio1 {
+  text-align: center;
+  color: #52734D;
+  /*margin: 0 auto;*/
+  font-family: "sans-serif";
+  font-size: 18px;
+}
+
+.skills {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+}
+
+.skill-heading {
+  color: #52734D;
+  font-size: 46px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.my-skills {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-pic {
+  width: 100px;
+  height: 100px;
+}
+
+.right-section, .left-sec {
+  width: 400px;
+}
+
+.sub2, .sub3 {
+  color: #52734D;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+
+  }
+
+.bio2, .bio3 {
+  color: #52734D;
+  font-family: "sans-serif";
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.skills-req {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.req-pic {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
