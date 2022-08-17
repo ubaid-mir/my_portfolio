@@ -1,23 +1,28 @@
 body {
   background-color: #C5D8A4;
   font-family:sans-serif;
+  margin: 0;
 }
 
 .header{
   display: flex;
   justify-content: center;
+  padding: 20px 0;
 }
 
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   margin-right: 600px;
   border-radius: 50px;
+  object-fit: cover;
 }
 .about,.work, .notes {
   margin-right: 20px;
-  color: white;
-  font-size: 18px;
+  color: #52734D;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: sans-serif;
 }
 
 .page1 {
@@ -127,7 +132,7 @@ hr {
   height: 500px;
 }
 
-.skill-heading {
+.title3, .title4 {
   color: #52734D;
   font-size: 46px;
   font-family: monospace;
@@ -153,7 +158,7 @@ hr {
   width: 400px;
 }
 
-.sub2, .sub3 {
+.sub2, .sub3, .sub4 {
   color: #52734D;
   font-size: 30px;
   font-family: monospace;
@@ -175,10 +180,75 @@ hr {
   height: 250px;
   align-items: center;
   justify-content: space-between;
+  margin: 30px auto;
 }
 
 .req-pic {
   width: 100px;
   height: 100px;
   margin-left: 20px;
+}
+
+.contact-details {
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 40px auto;
+  padding: 80px 0;
+}
+
+.bio4 {
+  color: #52734D;
+  font-family: "sans-serif";
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.whatsapp, .gmail, .insta {
+  width: 120px;
+  height: 40px;
+  background-color: #52734D;
+  border: none;
+  border-radius: 2px;
+  color: #C5D8A4;
+  font-family: "sans-serif";
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #DAE2B6;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social {
+  width: 120px;
+  height: 40px;
+  background-color: #DAE2B6;
+  border: none;
+  border-radius: 2px;
+  color: #52734D;
+  font-family: "sans-serif";
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.foot {
+  color: #52734D;
+  font-size: 14px;
+  font-family: "sans-serif";
+}
+
+.ubi {
+  text-decoration: underline;
+  cursor: pointer;
 }
