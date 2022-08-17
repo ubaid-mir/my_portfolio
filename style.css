@@ -1,0 +1,254 @@
+body {
+  background-color: #C5D8A4;
+  font-family:sans-serif;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  margin-right: 600px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.about,.work, .notes {
+  margin-right: 20px;
+  color: #52734D;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.page1 {
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.first-container {
+  text-align: center;
+  position: relative;
+  width: 800px;
+  margin: 20px auto;
+
+}
+
+.cloud1 {
+  position: absolute;
+  width: 100px;
+  right: 0;
+  top: -80px;
+}
+h1 {
+  color: #52734D;
+  font-size: 80px;
+  margin: 50px auto;
+  font-family: cursive;
+}
+
+.subtitle {
+  color: #52734D;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 80px;
+  left: 0;
+  bottom: -80px;
+}
+
+.mountain {
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.land {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px auto;
+}
+.land-picture {
+  width: 800px;
+}
+
+.page2 {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+}
+
+.boy {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+/*
+hr {
+border-style: dotted;
+border-color: white;
+padding: 10px 20px;*/
+hr {
+  border:none;
+  border-top: 6px dotted white;
+  width:20%;
+}
+
+
+.sub1 {
+  color: #52734D;
+  font-size: 32px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  /*margin: 10px auto;*/
+}
+
+.bio1 {
+  text-align: center;
+  color: #52734D;
+  /*margin: 0 auto;*/
+  font-family: "sans-serif";
+  font-size: 18px;
+}
+
+.skills {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+}
+
+.title3, .title4 {
+  color: #52734D;
+  font-size: 46px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.my-skills {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-pic {
+  width: 100px;
+  height: 100px;
+}
+
+.right-section, .left-sec {
+  width: 400px;
+}
+
+.sub2, .sub3, .sub4 {
+  color: #52734D;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+
+  }
+
+.bio2, .bio3 {
+  color: #52734D;
+  font-family: "sans-serif";
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.skills-req {
+  display: flex;
+  width: 600px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.req-pic {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.contact-details {
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 40px auto;
+  padding: 80px 0;
+}
+
+.bio4 {
+  color: #52734D;
+  font-family: "sans-serif";
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.whatsapp, .gmail, .insta {
+  width: 120px;
+  height: 40px;
+  background-color: #52734D;
+  border: none;
+  border-radius: 2px;
+  color: #C5D8A4;
+  font-family: "sans-serif";
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #DAE2B6;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social {
+  width: 120px;
+  height: 40px;
+  background-color: #DAE2B6;
+  border: none;
+  border-radius: 2px;
+  color: #52734D;
+  font-family: "sans-serif";
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.foot {
+  color: #52734D;
+  font-size: 14px;
+  font-family: "sans-serif";
+}
+
+.ubi {
+  text-decoration: underline;
+  cursor: pointer;
+}
