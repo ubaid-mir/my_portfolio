@@ -1,2 +1,2 @@
 # My-Portfolio
-https://ubaid-mir.github.io/My_Portfolio/index.html
+https://ubaid-mir.github.io/my_portfolio/index.html
